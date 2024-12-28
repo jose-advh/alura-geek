@@ -12,6 +12,7 @@
     --main-font: 'Press Start 2P', serif;
     --second-font: 'IBM Plex Mono', monospace;
     --main-color: #5D04D9;
+    --second-color: #03318C;
 }
 
 .header {
@@ -45,11 +46,11 @@
     width: 100%;
     margin: auto;
     height: auto;
-    border: 11px solid;
 }
 
 .main__productos {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 1rem;
@@ -60,6 +61,7 @@
 }
 
 .main__productos--agregar {
+    height: 100vh;
     right: 0;
 }
 
@@ -113,6 +115,57 @@
 }
 
 .description__icon {
+}
+
+.producto__agregar {
+    padding-top: 3rem;
+    width: 50%;
+}
+
+.agregar__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form__input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: var(--second-color);
+}
+
+.form__input::placeholder {
+    color: var(--second-color);
+    font-family: var(--second-font);
+}
+
+.form__btns {
+    display: flex;
+    gap: 10px;
+}
+
+.form__btn {
+    width: 30%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: var(--second-color);
+    background-color: var(--second-color);
+    color: white;
+    cursor: pointer;
+    transition: .5s ease background-color, color;
+}
+
+.form__btn--outline {
+    background-color: white;
+    color: var(--second-color);
+}
+
+.form__btn:hover {
+    background-color: var(--main-color);
+    color: white;
+    border: 0px;
 }
 
 ::-webkit-scrollbar {

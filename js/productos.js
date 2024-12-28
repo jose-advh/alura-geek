@@ -6,7 +6,7 @@ function crearProducto(nombre, precio, imagen) {
     const producto = document.createElement('li');
     producto.className = 'productos__item';
     producto.innerHTML = `
-                    <img width="100%" height="70%" src="${imagen}" />
+                    <img width="100%" height="70%" src="${imagen}" alt="Producto disponible" />
                     <section class="descripcion-producto">
                         <h3 class="description__title">${nombre}</h3>
                         <article class="descripcion-detalles">
