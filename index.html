@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js" type="module" defer></script>
+    <script src="./js/productos.js" type="module" defer></script>
 </head>
 <body>
     <header class="header">
-        
+        <nav class="header__nav">
+            <img src="./imgs/hearts.png" alt="Tres corazones rojos" class="header__img">
+            <h1 class="header__title">AluraGeek</h1>
+        </nav>
     </header>
+    <main class="main">
+        <article class="main__productos">
+            <h1 class="main__title">MIS PRODUCTOS:</h1>
+            <ul class="productos__lista" data-lista-productos>
+                <!-- Aqui se añaden los productos dinamicamente -->
+            </ul>
+        </article>  
+        <article class="main__productos main__productos--agregar">
+            <h1>aaa</h1>
+        </article>
+    </main>
 </body>
 </html>
