@@ -1,40 +1,34 @@
 {
   "productos": [
     {
-      "id": "1",
-      "nombre": "Game boy Classic",
-      "precio": 1000,
-      "imagen": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThCCQ2c5I64rx5oxk07Die4zEN2gABxQ3JXgCsXQaRshj0fX1z9nvVtGqBSKITHApXSpMNegIIXc-hBnsUZdg8js~~xh1eSk9q5rGIML3Riidn0wjXA2jcoK6dCOySnz-OsROwUcNtUZPwlDlZTAsY4MJHr0N7T3uncXgsH-YfxfI4Ah3WLBeIbPN1lEHnMy5oY-YVAXZ2c-LD09CV3asNmZcyluJ1QY~UaP7B7lyoYPO-plh0f0r0wsp00OalyyIDlOVjqmxaUzxWX3yT6JmOFnDOI~VCsBbm0v8VE3n6dvcXIZ-9kceVUNMon8p~2SGYFrmmP0i9Nx-pnYBa2TVA__"
-    },
-    {
       "id": "2",
-      "nombre": "Stormtrooper",
-      "precio": 2000,
-      "imagen": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThCCQ2c5I64rx5oxk07Die4zEN2gABxQ3JXgCsXQaRshj0fX1z9nvVtGqBSKITHApXSpMNegIIXc-hBnsUZdg8js~~xh1eSk9q5rGIML3Riidn0wjXA2jcoK6dCOySnz-OsROwUcNtUZPwlDlZTAsY4MJHr0N7T3uncXgsH-YfxfI4Ah3WLBeIbPN1lEHnMy5oY-YVAXZ2c-LD09CV3asNmZcyluJ1QY~UaP7B7lyoYPO-plh0f0r0wsp00OalyyIDlOVjqmxaUzxWX3yT6JmOFnDOI~VCsBbm0v8VE3n6dvcXIZ-9kceVUNMon8p~2SGYFrmmP0i9Nx-pnYBa2TVA__"
+      "nombre": "Nintendo Switch",
+      "precio": "280.00",
+      "imagen": "https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/c/o/consola-nintendo-switch-neon-47030-default-1.jpg"
     },
     {
-      "id": "3",
-      "nombre": "1",
-      "precio": 222,
-      "imagen": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThCCQ2c5I64rx5oxk07Die4zEN2gABxQ3JXgCsXQaRshj0fX1z9nvVtGqBSKITHApXSpMNegIIXc-hBnsUZdg8js~~xh1eSk9q5rGIML3Riidn0wjXA2jcoK6dCOySnz-OsROwUcNtUZPwlDlZTAsY4MJHr0N7T3uncXgsH-YfxfI4Ah3WLBeIbPN1lEHnMy5oY-YVAXZ2c-LD09CV3asNmZcyluJ1QY~UaP7B7lyoYPO-plh0f0r0wsp00OalyyIDlOVjqmxaUzxWX3yT6JmOFnDOI~VCsBbm0v8VE3n6dvcXIZ-9kceVUNMon8p~2SGYFrmmP0i9Nx-pnYBa2TVA__"
+      "id": "5",
+      "nombre": "Nintendo Sup",
+      "precio": "74",
+      "imagen": "https://gadgetsandfunmx.com/api/fileApi/images/123/3/consolaroja.jpg"
     },
     {
-        "id": "1",
-        "nombre": "Game boy Classic",
-        "precio": 1000,
-        "imagen": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThCCQ2c5I64rx5oxk07Die4zEN2gABxQ3JXgCsXQaRshj0fX1z9nvVtGqBSKITHApXSpMNegIIXc-hBnsUZdg8js~~xh1eSk9q5rGIML3Riidn0wjXA2jcoK6dCOySnz-OsROwUcNtUZPwlDlZTAsY4MJHr0N7T3uncXgsH-YfxfI4Ah3WLBeIbPN1lEHnMy5oY-YVAXZ2c-LD09CV3asNmZcyluJ1QY~UaP7B7lyoYPO-plh0f0r0wsp00OalyyIDlOVjqmxaUzxWX3yT6JmOFnDOI~VCsBbm0v8VE3n6dvcXIZ-9kceVUNMon8p~2SGYFrmmP0i9Nx-pnYBa2TVA__"
-      },
-      {
-        "id": "2",
-        "nombre": "Stormtrooper",
-        "precio": 2000,
-        "imagen": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThCCQ2c5I64rx5oxk07Die4zEN2gABxQ3JXgCsXQaRshj0fX1z9nvVtGqBSKITHApXSpMNegIIXc-hBnsUZdg8js~~xh1eSk9q5rGIML3Riidn0wjXA2jcoK6dCOySnz-OsROwUcNtUZPwlDlZTAsY4MJHr0N7T3uncXgsH-YfxfI4Ah3WLBeIbPN1lEHnMy5oY-YVAXZ2c-LD09CV3asNmZcyluJ1QY~UaP7B7lyoYPO-plh0f0r0wsp00OalyyIDlOVjqmxaUzxWX3yT6JmOFnDOI~VCsBbm0v8VE3n6dvcXIZ-9kceVUNMon8p~2SGYFrmmP0i9Nx-pnYBa2TVA__"
-      },
-      {
-        "id": "3",
-        "nombre": "1",
-        "precio": 222,
-        "imagen": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ThCCQ2c5I64rx5oxk07Die4zEN2gABxQ3JXgCsXQaRshj0fX1z9nvVtGqBSKITHApXSpMNegIIXc-hBnsUZdg8js~~xh1eSk9q5rGIML3Riidn0wjXA2jcoK6dCOySnz-OsROwUcNtUZPwlDlZTAsY4MJHr0N7T3uncXgsH-YfxfI4Ah3WLBeIbPN1lEHnMy5oY-YVAXZ2c-LD09CV3asNmZcyluJ1QY~UaP7B7lyoYPO-plh0f0r0wsp00OalyyIDlOVjqmxaUzxWX3yT6JmOFnDOI~VCsBbm0v8VE3n6dvcXIZ-9kceVUNMon8p~2SGYFrmmP0i9Nx-pnYBa2TVA__"
-      }
+      "id": "8",
+      "nombre": "Consola Anbernic RG353PS",
+      "precio": "649.00",
+      "imagen": "https://jotastore.pe/wp-content/uploads/2023/11/Consola-Anbernic-RG353PS-White1.jpg"
+    },
+    {
+      "id": "1ca5",
+      "nombre": "Messi ",
+      "precio": "12.99",
+      "imagen": "https://acdn.mitiendanube.com/stores/904/490/products/cojin_messi_1-0d71021f372186d7b817193703863791-1024-1024.png"
+    },
+    {
+      "id": "3203",
+      "nombre": "cr7",
+      "precio": "1234",
+      "imagen": "https://m.media-amazon.com/images/I/41PDwWkgwoL._AC_UF894,1000_QL80_.jpg"
+    }
   ]
 }

@@ -4,12 +4,12 @@ async function conexionProductos() {
     return productosConvertidos
 }
 
-async function agregarProducto(nombre, precio, imagen) {
+async function agregarProducto(nombre, precio, imagen, id) {
 
     const producto = {
         nombre: nombre,
         precio: precio,
-        imagen: imagen
+        imagen: imagen,
     }
 
     const respuesta = await fetch('http://localhost:3001/productos', {
