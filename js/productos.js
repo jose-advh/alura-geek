@@ -59,8 +59,6 @@ async function conexionProductos() {
     }
 }
 
-
-
 async function eliminarProducto(id) {
     try {
         fetch(`http://localhost:3001/productos/${id}`, {
