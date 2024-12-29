@@ -2,7 +2,7 @@ import { conexionAPI } from "./index.js";
 
 const listaProductos = document.querySelector('[data-lista-productos]'); 
 
-function crearProducto(nombre, precio, imagen) {
+function crearProducto(nombre, precio, imagen, id) {
     const producto = document.createElement('li');
     producto.className = 'productos__item';
     producto.innerHTML = `
@@ -16,6 +16,7 @@ function crearProducto(nombre, precio, imagen) {
                     </section> 
     `;
 
+
     return producto;
 } 
 
@@ -24,9 +25,11 @@ async function conexionProductos() {
         const listaAPI = await conexionAPI.conexionProductos();
 
         listaAPI.forEach(producto => listaProductos.appendChild(crearProducto(producto.nombre, producto.precio, producto.imagen)))
+
     } catch (error) {
         listaProductos.innerHTML = `<h3>Hubo un error al cargar los productos</h3>`;
     }
 }
 
 conexionProductos();
+

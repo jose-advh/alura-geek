@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/index.js" type="module" defer></script>
     <script src="./js/productos.js" type="module" defer></script>
+    <script src="./js/crearProducto.js" type="module"></script>
 </head>
 <body>
     <header class="header">
@@ -16,7 +17,7 @@
         </nav>
     </header>
     <main class="main">
-        <article class="main__productos">
+        <article class="main__productos main__productos--productos">
             <h1 class="main__title">MIS PRODUCTOS:</h1>
             <ul class="productos__lista" data-lista-productos>
                 <!-- Aqui se añaden los productos dinamicamente -->
@@ -26,9 +27,9 @@
             <h1 class="main__title">AGREGAR PRODUCTO:</h1>
             <section class="producto__agregar">
                 <form action="#" class="agregar__form" data-form-agregar>
-                    <input type="text" class="form__input" placeholder="nombre..">
-                    <input type="text" class="form__input" placeholder="precio..">
-                    <input type="text" class="form__input" placeholder="imagen..">
+                    <input type="text" class="form__input" placeholder="nombre.." data-nombre required>
+                    <input type="text" class="form__input" placeholder="precio.." data-precio required>
+                    <input type="text" class="form__input" placeholder="imagen.." data-imagen required>
                     <article class="form__btns">
                         <button type="submit" class="form__btn">Agregar</button>
                         <button type="reset" class="form__btn form__btn--outline">Limpiar</button>

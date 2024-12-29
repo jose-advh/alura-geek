@@ -50,6 +50,7 @@
 
 .main__productos {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -58,6 +59,10 @@
     bottom: 0%;
     max-height: 85%;
     width: 50%;
+}
+
+.main__productos--productos {
+    order: 2 !important;
 }
 
 .main__productos--agregar {
@@ -80,6 +85,7 @@
     overflow-y: auto;
     flex-wrap: wrap;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .productos__item {
@@ -115,6 +121,12 @@
 }
 
 .description__icon {
+    cursor: pointer;
+    transition: .5s ease color;
+}
+
+.description__icon:hover {
+    scale: 1.1;
 }
 
 .producto__agregar {
@@ -146,7 +158,7 @@
 }
 
 .form__btn {
-    width: 30%;
+    width: 40%;
     padding: .5rem;
     border-radius: 5px;
     border: 2px solid;
@@ -211,10 +223,21 @@
 
     .main__productos--agregar {
         order: 1 !important;
+        height: 70vh;
     }
 
     .productos__item {
         width: 45%;
         height: 35%;
     }
+
+    .producto__agregar {
+        width: 65%;
+    }
+
+    .form__btns {
+        width: 100%;
+    }
+
+
 }
